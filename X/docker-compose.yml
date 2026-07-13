@@ -44,7 +44,7 @@ services:
       NEXTCLOUD_TRUSTED_DOMAINS: ${NEXTCLOUD_TRUSTED_DOMAINS}
       OVERWRITEHOST: ${NEXTCLOUD_OVERWRITEHOST}
       OVERWRITEPROTOCOL: ${NEXTCLOUD_OVERWRITEPROTOCOL}
-      OVERWRITECLIURL: http://x.decentral.technology
+      OVERWRITECLIURL: https://x.decentral.technology
     networks:
       - x_net
 

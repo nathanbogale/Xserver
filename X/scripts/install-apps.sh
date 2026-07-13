@@ -24,5 +24,5 @@ for repo in spreed deck notes groupfolders mail richdocuments; do
     | python3 -c "import sys,json; print(json.load(sys.stdin)['tag_name'])")
   install_release "$repo" "$tag"
 done
-docker-compose exec -T -u www-data app php occ config:app:set richdocuments wopi_url --value="http://collabora.x.decentral.technology"
+docker-compose exec -T -u www-data app php occ config:app:set richdocuments wopi_url --value="http://docs.x.decentral.technology"
 echo "Done."

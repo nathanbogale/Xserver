@@ -1,6 +1,6 @@
 # X — Nextcloud Team Server
 
-Self-hosted Nextcloud for the Decentral team at **http://x.decentral.technology**
+Self-hosted Nextcloud for the Decentral team at **https://x.decentral.technology**
 
 ## Quick start
 
@@ -23,8 +23,8 @@ Or manually append `caddy-snippet.conf` to `/etc/caddy/Caddyfile` and run `sudo 
 
 | Service | URL |
 |---------|-----|
-| Nextcloud | http://x.decentral.technology |
-| Collabora (Office) | http://collabora.x.decentral.technology |
+| Nextcloud | https://x.decentral.technology |
+| Collabora (Office) | https://docs.x.decentral.technology |
 
 ## Ports (host)
 
