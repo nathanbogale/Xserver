@@ -1,0 +1,26 @@
+OC.L10N.register(
+    "groupfolders",
+    {
+    "Unset" : "Non défini",
+    "Allowed" : "Tessireg",
+    "Access denied" : "Addaf yugwi",
+    "Deny" : "Agwi",
+    "Allow" : "Sireg",
+    "Group" : "Agraw",
+    "Team" : "Tarbaɛt",
+    "Read" : "Taɣuri",
+    "Create" : "Snulfu-d",
+    "Delete" : "Kkes",
+    "Share" : "Bḍu",
+    "You" : "Kemm·čč",
+    "Default" : "Prédéfini(e)",
+    "Unlimited" : "War talast",
+    "Folder name" : "Isem n ukaram",
+    "Previous" : "Ɣer deffir",
+    "Next" : "Uḍfir",
+    "User" : "Aseqdac",
+    "Unknown" : "Arussin",
+    "None" : "Ula d yiwen",
+    "{size} used" : "yettwaseqdec {size}"
+},
+"nplurals=2; plural=(n != 1);");

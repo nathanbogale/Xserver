@@ -1,0 +1,21 @@
+OC.L10N.register(
+    "groupfolders",
+    {
+    "Deny" : "Rad etish",
+    "Group" : "Guruh",
+    "Team" : "Jamoa",
+    "Write" : "Yozish",
+    "Create" : "Yaratish",
+    "Delete" : "O'chirish",
+    "Share" : "Ulashish",
+    "Default" : "Standart",
+    "Unlimited" : "Unlimited",
+    "Folder name" : "Folder name",
+    "Quota" : "kvota",
+    "Previous" : "Oldingi",
+    "Next" : "Keyingisi",
+    "User" : "Foydalanuvchi",
+    "Unknown" : "Noma'lum",
+    "None" : "Yo'q"
+},
+"nplurals=1; plural=0;");

@@ -1,0 +1,59 @@
+<?php
+
+declare(strict_types=1);
+
+/**
+ * SPDX-FileCopyrightText: 2018 Nextcloud GmbH and Nextcloud contributors
+ * SPDX-License-Identifier: AGPL-3.0-or-later
+ */
+
+namespace OCA\Notes\Controller;
+
+use OCA\Notes\Service\SettingsService;
+use OCP\AppFramework\Controller;
+use OCP\AppFramework\Http\Attribute\NoAdminRequired;
+use OCP\AppFramework\Http\JSONResponse;
+use OCP\IRequest;
+use OCP\IUserSession;
+
+class SettingsController extends Controller {
+	public function __construct(
+		string $appName,
+		IRequest $request,
+		private SettingsService $service,
+		private IUserSession $userSession,
+	) {
+		parent::__construct($appName, $request);
+	}
+
+	private function getUID(): string {
+		return $this->userSession->getUser()->getUID();
+	}
+
+	/**
+	 * @throws \OCP\PreConditionNotMetException
+	 */
+	#[NoAdminRequired]
+	public function set(): JSONResponse {
+		$this->service->set(
+			$this->getUID(),
+			$this->request->getParams()
+		);
+		return $this->get();
+	}
+
+	/**
+	 */
+	#[NoAdminRequired]
+	public function get(): JSONResponse {
+		return new JSONResponse($this->service->getAll($this->getUID()));
+	}
+
+	/**
+	 */
+	#[NoAdminRequired]
+	public function migrate(): JSONResponse {
+		$this->service->delete($this->getUID(), 'editorHint');
+		return new JSONResponse();
+	}
+}

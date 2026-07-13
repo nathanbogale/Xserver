@@ -1,0 +1,134 @@
+<?php
+
+declare(strict_types=1);
+/**
+ * SPDX-FileCopyrightText: 2022 Nextcloud GmbH and Nextcloud contributors
+ * SPDX-License-Identifier: AGPL-3.0-or-later
+ */
+
+namespace OCA\GroupFolders\DAV;
+
+use OC\Files\Filesystem;
+use OCA\GroupFolders\Folder\FolderDefinition;
+use OCA\GroupFolders\Folder\FolderDefinitionWithPermissions;
+use OCA\GroupFolders\Folder\FolderManager;
+use OCP\Files\IRootFolder;
+use OCP\IUser;
+use RuntimeException;
+use Sabre\DAV\Exception\Forbidden;
+use Sabre\DAV\Exception\NotFound;
+use Sabre\DAV\ICollection;
+
+class GroupFoldersHome implements ICollection {
+	/**
+	 * @param array{uri: string} $principalInfo
+	 */
+	public function __construct(
+		private array $principalInfo,
+		private readonly FolderManager $folderManager,
+		private readonly IRootFolder $rootFolder,
+		private readonly IUser $user,
+	) {
+	}
+
+	#[\Override]
+	public function delete(): never {
+		throw new Forbidden();
+	}
+
+	#[\Override]
+	public function getName(): string {
+		/** @var string $name */
+		[, $name] = \Sabre\Uri\split($this->principalInfo['uri']);
+		return $name;
+	}
+
+	#[\Override]
+	public function setName($name): never {
+		throw new Forbidden('Permission denied to rename this folder');
+	}
+
+	#[\Override]
+	public function createFile($name, $data = null): never {
+		throw new Forbidden('Not allowed to create files in this folder');
+	}
+
+	#[\Override]
+	public function createDirectory($name): never {
+		throw new Forbidden('Permission denied to create folders in this folder');
+	}
+
+	private function getFolder(string $name): ?FolderDefinition {
+		$storageId = $this->rootFolder->getMountPoint()->getNumericStorageId();
+		if ($storageId === null) {
+			return null;
+		}
+
+		$folders = $this->folderManager->getFoldersForUser($this->user);
+		foreach ($folders as $folder) {
+			if (basename($folder->mountPoint) === $name) {
+				return $folder;
+			}
+		}
+
+		return null;
+	}
+
+	private function getDirectoryForFolder(FolderDefinition $folder): GroupFolderNode {
+		$userHome = '/' . $this->user->getUID() . '/files';
+		$node = $this->rootFolder->get($userHome . '/' . $folder->mountPoint);
+
+		$view = Filesystem::getView();
+		if ($view === null) {
+			throw new RuntimeException('Unable to create view.');
+		}
+
+		return new GroupFolderNode($view, $node, $folder->id);
+	}
+
+	#[\Override]
+	public function getChild($name): GroupFolderNode {
+		$folder = $this->getFolder($name);
+		if ($folder) {
+			return $this->getDirectoryForFolder($folder);
+		}
+
+		throw new NotFound();
+	}
+
+	/**
+	 * @return GroupFolderNode[]
+	 */
+	#[\Override]
+	public function getChildren(): array {
+		$storageId = $this->rootFolder->getMountPoint()->getNumericStorageId();
+		if ($storageId === null) {
+			return [];
+		}
+
+		$folders = $this->folderManager->getFoldersForUser($this->user);
+
+		usort($folders, static fn (FolderDefinitionWithPermissions $a, FolderDefinitionWithPermissions $b): int => $a->mountPoint <=> $b->mountPoint);
+
+		$current = '';
+		$leafFolders = [];
+		foreach ($folders as $folder) {
+			if (!str_starts_with($folder->mountPoint, $current . '/')) {
+				$leafFolders[] = $folder;
+				$current = $folder->mountPoint;
+			}
+		}
+
+		return array_map($this->getDirectoryForFolder(...), $leafFolders);
+	}
+
+	#[\Override]
+	public function childExists($name): bool {
+		return $this->getFolder($name) !== null;
+	}
+
+	#[\Override]
+	public function getLastModified(): int {
+		return 0;
+	}
+}
