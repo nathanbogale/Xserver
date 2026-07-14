@@ -68,7 +68,10 @@ services:
       - "127.0.0.1:8301:9980"
     environment:
       - domain=x\\.decentral\\.technology
+      - server_name=${COLLABORA_DOMAIN}
+      - aliasgroup1=https://x.decentral.technology:443
       - extra_params=--o:ssl.enable=false --o:ssl.termination=true
+      - DONT_GEN_SSL_CERT=true
     cap_add:
       - MKNOD
     networks:

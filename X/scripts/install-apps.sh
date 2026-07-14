@@ -24,5 +24,9 @@ for repo in spreed deck notes groupfolders mail richdocuments; do
     | python3 -c "import sys,json; print(json.load(sys.stdin)['tag_name'])")
   install_release "$repo" "$tag"
 done
-docker-compose exec -T -u www-data app php occ config:app:set richdocuments wopi_url --value="http://docs.x.decentral.technology"
+docker-compose exec -T -u www-data app php occ config:app:set richdocuments wopi_url --value="https://docs.x.decentral.technology"
+docker-compose exec -T -u www-data app php occ config:app:set richdocuments public_wopi_url --value="https://docs.x.decentral.technology"
+docker-compose exec -T -u www-data app php occ config:app:set richdocuments wopi_allowlist --value="172.16.0.0/12,10.0.0.0/8,127.0.0.1"
+# Set callback after any activate-config; activate-config resets wopi_callback_url to autodetect
+docker-compose exec -T -u www-data app php occ config:app:set richdocuments wopi_callback_url --value="http://app"
 echo "Done."
