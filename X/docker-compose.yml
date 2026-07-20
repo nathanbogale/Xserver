@@ -87,6 +87,17 @@ services:
       - ./coturn/turnserver.conf:/etc/coturn/turnserver.conf:ro
     command: ["-c", "/etc/coturn/turnserver.conf"]
 
+  whiteboard:
+    image: ghcr.io/nextcloud-releases/whiteboard:stable
+    restart: unless-stopped
+    ports:
+      - "127.0.0.1:8303:3002"
+    environment:
+      NEXTCLOUD_URL: https://x.decentral.technology
+      JWT_SECRET_KEY: ${WHITEBOARD_JWT_SECRET}
+    networks:
+      - x_net
+
 volumes:
   db_data:
   nextcloud_html:
