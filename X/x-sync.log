@@ -13,3 +13,6 @@
 2026/07/23 19:20:34 NOTICE: webdav root 'X': 124 hashes could not be checked
 2026/07/23 19:20:34 NOTICE: webdav root 'X': 124 matching files
 2026/07/23 19:20:34 Failed to check with 8 errors: last error was: 8 differences found
+[2026-07-23 19:23:27] CHECK match=124 differ=1 local_only=7 remote_only=113 errors=0 rc=1
+[2026-07-23 19:24:11] COPY PULL start (no deletes)
+2026/07/23 19:24:21 INFO  : Questions_for_client.md: Copied (replaced existing)

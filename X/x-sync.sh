@@ -194,13 +194,146 @@ cmd_copy_pull() {
 cmd_check() {
   require_rclone
   ensure_local
-  echo "Comparing local ↔ remote (rclone check)..."
+
+  local tmpdir differ missing_dst missing_src combined
+  tmpdir="$(mktemp -d)"
+  differ="$tmpdir/differ.txt"
+  missing_dst="$tmpdir/missing-on-remote.txt"   # only on local → push
+  missing_src="$tmpdir/missing-on-local.txt"    # only on remote → pull
+  combined="$tmpdir/combined.txt"
+  touch "$differ" "$missing_dst" "$missing_src" "$combined"
+
+  echo
+  echo "=============================================="
+  echo "  Difference report"
+  echo "=============================================="
+  echo "  Local : $LOCAL_DIR"
+  echo "  Remote: $REMOTE"
+  echo "  (scanning — may take a while on large trees)"
+  echo "=============================================="
+  echo
+
+  set +e
   rclone check "$LOCAL_DIR" "$REMOTE" \
     "${EXCLUDE_FLAGS[@]}" \
-    --one-way \
-    2>&1 | tee -a "$LOG_FILE" || true
+    --differ "$differ" \
+    --missing-on-dst "$missing_dst" \
+    --missing-on-src "$missing_src" \
+    --combined "$combined" \
+    --error "$tmpdir/errors.txt" \
+    2>"$tmpdir/rclone-stderr.txt"
+  local rc=$?
+  set -e
+
+  local n_differ n_push n_pull n_match n_error
+  n_differ="$(grep -c . "$differ" 2>/dev/null || echo 0)"
+  n_push="$(grep -c . "$missing_dst" 2>/dev/null || echo 0)"
+  n_pull="$(grep -c . "$missing_src" 2>/dev/null || echo 0)"
+  n_match="$(grep -c '^=' "$combined" 2>/dev/null || echo 0)"
+  n_error="$(grep -c . "$tmpdir/errors.txt" 2>/dev/null || echo 0)"
+  n_differ="${n_differ%%$'\n'*}"
+  n_push="${n_push%%$'\n'*}"
+  n_pull="${n_pull%%$'\n'*}"
+  n_match="${n_match%%$'\n'*}"
+  n_error="${n_error%%$'\n'*}"
+
+  local total_delta=$((n_differ + n_push + n_pull))
+
+  echo "┌─────────────────────────────────────────────┐"
+  echo "│  SUMMARY                                    │"
+  echo "├─────────────────────────────────────────────┤"
+  printf "│  %-28s %10s  │\n" "Identical (match)" "$n_match"
+  printf "│  %-28s %10s  │\n" "Differ (content/size)" "$n_differ"
+  printf "│  %-28s %10s  │\n" "Only on local  → push" "$n_push"
+  printf "│  %-28s %10s  │\n" "Only on remote → pull" "$n_pull"
+  printf "│  %-28s %10s  │\n" "Check errors" "$n_error"
+  echo "├─────────────────────────────────────────────┤"
+  printf "│  %-28s %10s  │\n" "Total differences" "$total_delta"
+  echo "└─────────────────────────────────────────────┘"
   echo
-  echo "(Exit non-zero from check usually means differences exist — that is OK.)"
+
+  _viz_bar() {
+    local label="$1" count="$2" max="$3" width=30
+    local filled=0
+    if [[ "$max" -gt 0 && "$count" -gt 0 ]]; then
+      filled=$(( count * width / max ))
+      [[ "$filled" -lt 1 ]] && filled=1
+      [[ "$filled" -gt "$width" ]] && filled=$width
+    fi
+    local bar empty
+    bar="$(printf '%*s' "$filled" '' | tr ' ' '#')"
+    empty="$(printf '%*s' $((width - filled)) '')"
+    printf "  %-22s [%s%s] %s\n" "$label" "$bar" "$empty" "$count"
+  }
+  local vmax=$total_delta
+  [[ "$vmax" -lt 1 ]] && vmax=1
+  echo "  Distribution of differences:"
+  _viz_bar "Differ" "$n_differ" "$vmax"
+  _viz_bar "Local only (push)" "$n_push" "$vmax"
+  _viz_bar "Remote only (pull)" "$n_pull" "$vmax"
+  echo
+
+  _list_section() {
+    local title="$1" file="$2" limit="${3:-40}"
+    local count
+    count="$(grep -c . "$file" 2>/dev/null || echo 0)"
+    count="${count%%$'\n'*}"
+    echo "──────────────────────────────────────────────"
+    echo "  $title  ($count)"
+    echo "──────────────────────────────────────────────"
+    if [[ "$count" -eq 0 ]]; then
+      echo "  (none)"
+      echo
+      return
+    fi
+    head -n "$limit" "$file" | sed 's/^/  • /'
+    if [[ "$count" -gt "$limit" ]]; then
+      echo "  … and $((count - limit)) more"
+    fi
+    echo
+  }
+
+  _list_section "CHANGED (local ≠ remote)" "$differ"
+  _list_section "ONLY ON LOCAL  (would upload on push)" "$missing_dst"
+  _list_section "ONLY ON REMOTE (would download on pull)" "$missing_src"
+
+  if [[ "$n_error" -gt 0 ]]; then
+    _list_section "CHECK ERRORS" "$tmpdir/errors.txt" 20
+  fi
+
+  if [[ "$total_delta" -eq 0 ]]; then
+    echo "✓ In sync — no differences found."
+  else
+    echo "Suggested next steps:"
+    [[ "$n_push" -gt 0 || "$n_differ" -gt 0 ]] && echo "  • Upload local → Nextcloud:  $(basename "$SCRIPT_PATH") copy-push   (safe) or push"
+    [[ "$n_pull" -gt 0 || "$n_differ" -gt 0 ]] && echo "  • Download Nextcloud → local: $(basename "$SCRIPT_PATH") copy-pull   (safe) or pull"
+    echo "  • Dry-run first:             $(basename "$SCRIPT_PATH") dry-push | dry-pull"
+  fi
+  echo
+
+  {
+    echo "[$(date '+%Y-%m-%d %H:%M:%S')] CHECK match=$n_match differ=$n_differ local_only=$n_push remote_only=$n_pull errors=$n_error rc=$rc"
+  } >> "$LOG_FILE"
+
+  local report="${LOG_FILE%.log}-last-diff.txt"
+  {
+    echo "X sync difference report — $(date '+%Y-%m-%d %H:%M:%S')"
+    echo "Local:  $LOCAL_DIR"
+    echo "Remote: $REMOTE"
+    echo "match=$n_match differ=$n_differ local_only=$n_push remote_only=$n_pull"
+    echo
+    echo "=== DIFFER ==="
+    cat "$differ"
+    echo
+    echo "=== ONLY LOCAL (push) ==="
+    cat "$missing_dst"
+    echo
+    echo "=== ONLY REMOTE (pull) ==="
+    cat "$missing_src"
+  } > "$report"
+  echo "Full list saved to: $report"
+
+  rm -rf "$tmpdir"
 }
 
 cmd_list_remote() {
@@ -346,7 +479,7 @@ menu() {
     4) Copy pull (Nextcloud → local, no deletes)
     5) Dry-run push
     6) Dry-run pull
-    7) Check differences
+    7) Check differences (summary + file lists)
 
   Auto
     8) Enable auto-sync (cron)

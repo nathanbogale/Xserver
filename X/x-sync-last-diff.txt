@@ -1,0 +1,131 @@
+X sync difference report — 2026-07-23 19:23:27
+Local:  /home/server/X/x
+Remote: nc:X
+match=124 differ=1 local_only=7 remote_only=113
+
+=== DIFFER ===
+Questions_for_client.md
+
+=== ONLY LOCAL (push) ===
+Phase00.md
+docs/phase-00-carryover.md
+docs/contractual doc WIP/MSA ProjectX AfricaIT draft V0.1.docx
+docs/contractual doc WIP/README.md
+docs/contractual doc WIP/appendix-2-project-schedule.md
+docs/contractual doc WIP/appendix-7-equipment-list.md
+docs/contractual doc WIP/msa-v2.0.md
+
+=== ONLY REMOTE (pull) ===
+docs/contractual doc WIP/MSA ProjectX AfricaIT draft V0.3.docx
+docs/contractual doc WIP/Project X appendix 2 Project Schedule.docx
+docs/contractual doc WIP/Project X appendix 7 Anti Bribery and anti corruption draft V0.1.docx
+docs/contractual doc WIP/Project X appendix 8 trade sanctions and crypto compliance draft V0.1.docx
+docs/archive/docs/Business Requirement Analysis & Overall Plan.md
+docs/archive/docs/glossary.md
+docs/archive/docs/image.png
+docs/archive/docs/phase-00-carryover.md
+docs/archive/docs/phases.md
+docs/contractual doc WIP/archive/MSA ProjectX AfricaIT draft V0.1.docx
+docs/contractual doc WIP/archive/msa-v2.0.md
+docs/archive/docs/assets/group-structure-old.png
+docs/archive/docs/assets/group-structure.mmd
+docs/archive/docs/assets/group-structure.png
+docs/archive/docs/decisions/bitcoin-vs-alternatives.md
+docs/archive/docs/decisions/client-alignment-backlog.md
+docs/archive/docs/decisions/conferencing-tixeo-evaluation.md
+docs/archive/docs/decisions/monero-vs-alternatives.md
+docs/archive/docs/decisions/single-platform-over-dual-mesh.md
+docs/archive/docs/decisions/tauri-over-electron.md
+docs/archive/docs/decisions/zedencrypt-evaluation.md
+docs/archive/docs/commercial/README.md
+docs/archive/docs/commercial/capex-schedule.md
+docs/archive/docs/commercial/contingency-options.md
+docs/archive/docs/commercial/financial-proposal.md
+docs/archive/docs/commercial/opex-schedule.md
+docs/archive/docs/commercial/payment-milestones.md
+docs/archive/docs/commercial/pricing-workbook.md
+docs/archive/docs/commercial/resource-plan.md
+docs/archive/docs/commercial/sizing-drivers.md
+docs/archive/docs/operations/company-phone-profile-manifest.md
+docs/archive/docs/operations/dc-build-specification.md
+docs/archive/docs/operations/disaster-recovery.md
+docs/archive/docs/operations/enrollment-factory.md
+docs/archive/docs/operations/incident-response.md
+docs/archive/docs/operations/key-ceremony.md
+docs/archive/docs/operations/maintenance-retainer.md
+docs/archive/docs/operations/regional-deployment.md
+docs/archive/docs/operations/secops-cadence.md
+docs/archive/docs/operations/sovereign-update-service.md
+docs/archive/docs/operations/subsystem-fallback-register.md
+docs/archive/docs/reference/Flow.md
+docs/archive/docs/reference/To Procure - ProjectX.md
+docs/archive/docs/phases/Phase-00-bootstrap.md
+docs/archive/docs/phases/README.md
+docs/archive/docs/phases/milestone-acceptance-checklists.md
+docs/archive/docs/phases/phase-0.md
+docs/archive/docs/phases/phase-00-carryover.md
+docs/archive/docs/phases/phase-1.md
+docs/archive/docs/phases/phase-2.md
+docs/archive/docs/phases/phase-3.md
+docs/archive/docs/phases/phase-4.md
+docs/archive/docs/phases/pre-contract.md
+docs/archive/docs/phases/summary-matrix.md
+docs/archive/docs/reference/ai-agent-roadmap.md
+docs/archive/docs/reference/asset-ownership-map.md
+docs/archive/docs/reference/bandwidth-feasibility.md
+docs/archive/docs/reference/cards-issuer-shortlist.md
+docs/archive/docs/reference/client-equivalence-note.md
+docs/archive/docs/reference/client-timeline-mapping.md
+docs/archive/docs/reference/contract-lifecycle.md
+docs/archive/docs/reference/crypto-cards-program.md
+docs/archive/docs/reference/crypto-primer.md
+docs/archive/docs/reference/crypto-research.md
+docs/archive/docs/reference/endpoint-standards.md
+docs/archive/docs/reference/executive-personal-device-checklist.md
+docs/archive/docs/reference/group-structure.md
+docs/archive/docs/reference/i2p-reseed.md
+docs/archive/docs/reference/payment-workflow-audit-template.md
+docs/archive/docs/reference/personal-device-opsec.md
+docs/archive/docs/reference/phase-4-backlog-register.md
+docs/archive/docs/reference/product-trade-commodity-map.md
+docs/archive/docs/reference/raci-matrix-template.md
+docs/archive/docs/reference/reporting-catalogue.md
+docs/archive/docs/reference/rfp-alignment-matrix.md
+docs/archive/docs/reference/trade-operations.md
+docs/archive/docs/reference/treasury-taint-executive-brief-fr.md
+docs/archive/docs/reference/treasury-taint-executive-brief.md
+docs/archive/docs/reference/user-training-curriculum.md
+docs/archive/docs/contractual doc WIP/MSA ProjectX AfricaIT draft V0.3.docx
+docs/archive/docs/contractual doc WIP/Project X appendix 1 Statement of Work draft V0.1.docx
+docs/archive/docs/contractual doc WIP/Project X appendix 2 Project Schedule.docx
+docs/archive/docs/contractual doc WIP/Project X appendix 3 governance draft V0.1.docx
+docs/archive/docs/contractual doc WIP/Project X appendix 4 methodology draft V0.1.docx
+docs/archive/docs/contractual doc WIP/Project X appendix 5 quality draft V0.1.docx
+docs/archive/docs/contractual doc WIP/Project X appendix 6 Price and payment draft V0.1.docx
+docs/archive/docs/contractual doc WIP/Project X appendix 7 Anti Bribery and anti corruption draft V0.1.docx
+docs/archive/docs/contractual doc WIP/Project X appendix 8 trade sanctions and crypto compliance draft V0.1.docx
+docs/archive/docs/contractual doc WIP/Project X appendix 9 change control draft V0.1.docx
+docs/archive/docs/contractual doc WIP/project X planning draft v 0.1.xlsx
+docs/archive/docs/requirements/business-requirements-analysis.md
+docs/archive/docs/treasury/README.md
+docs/archive/docs/treasury/etg.md
+docs/archive/docs/treasury/hk-reg-taint-class-spec.md
+docs/archive/docs/treasury/per-executive-payment-wallet.md
+docs/archive/docs/spikes/README.md
+docs/archive/docs/spikes/aircraft-edge-encoder-runbook.md
+docs/archive/docs/spikes/cards-issuer-integration-spec.md
+docs/archive/docs/spikes/nfc-yubikey-mpc-android.md
+docs/archive/docs/spikes/tauri-android-i2pd-spike.md
+docs/archive/docs/contractual doc WIP/archive/MSA ProjectX AfricaIT draft V0.1.docx
+docs/archive/docs/contractual doc WIP/archive/msa-v2.0.md
+docs/archive/docs/decisions/answers/July 6 answers.md
+docs/archive/docs/decisions/answers/July 7 answers.md
+docs/archive/docs/decisions/answers/June 26 answers.md
+docs/archive/docs/decisions/answers/README.md
+docs/archive/docs/decisions/answers/short-answers.md
+docs/archive/docs/reference/raci/00-cover-and-checklist.md
+docs/archive/docs/reference/raci/01-holding-singapore.md
+docs/archive/docs/reference/raci/02-product-trade-ltd.md
+docs/archive/docs/reference/raci/03-shared-service.md
+docs/archive/docs/reference/raci/04-group-policies.md
+docs/archive/docs/reference/raci/README.md
