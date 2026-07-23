@@ -1,0 +1,15 @@
+2026/07/23 19:20:09 ERROR : No common hash found - not using a hash for checks
+2026/07/23 19:20:11 ERROR : Phase00.md: file not in webdav root 'X'
+2026/07/23 19:20:11 ERROR : Questions_for_client.md: sizes differ
+2026/07/23 19:20:15 ERROR : docs/phase-00-carryover.md: file not in webdav root 'X'
+2026/07/23 19:20:25 ERROR : docs/contractual doc WIP/MSA ProjectX AfricaIT draft V0.1.docx: file not in webdav root 'X'
+2026/07/23 19:20:25 ERROR : docs/contractual doc WIP/README.md: file not in webdav root 'X'
+2026/07/23 19:20:25 ERROR : docs/contractual doc WIP/appendix-2-project-schedule.md: file not in webdav root 'X'
+2026/07/23 19:20:25 ERROR : docs/contractual doc WIP/appendix-7-equipment-list.md: file not in webdav root 'X'
+2026/07/23 19:20:25 ERROR : docs/contractual doc WIP/msa-v2.0.md: file not in webdav root 'X'
+2026/07/23 19:20:34 NOTICE: webdav root 'X': 7 files missing
+2026/07/23 19:20:34 NOTICE: webdav root 'X': 8 differences found
+2026/07/23 19:20:34 NOTICE: webdav root 'X': 8 errors while checking
+2026/07/23 19:20:34 NOTICE: webdav root 'X': 124 hashes could not be checked
+2026/07/23 19:20:34 NOTICE: webdav root 'X': 124 matching files
+2026/07/23 19:20:34 Failed to check with 8 errors: last error was: 8 differences found
