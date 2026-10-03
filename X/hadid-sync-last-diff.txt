@@ -1,0 +1,391 @@
+Hadid sync difference report — 2026-07-29 12:56:21
+Local:  /home/server/X/hadid/Hadid
+Remote: nc:DLT/Hadid
+match=3 differ=0 local_only=290 remote_only=91
+
+=== DIFFER ===
+
+=== ONLY LOCAL (push) ===
+README.md
+hadid-propfind.xml
+mkdocs.yml
+Projects/Projects.md
+Projects/README.md
+Products/Products.md
+Products/README.md
+Knowledge_Base/Knowledge_Base.md
+Knowledge_Base/README.md
+Knowledge_Base/image.png
+Execution/Engagements/Engagements.md
+Execution/Engagements/Outreach_Messages.md
+Execution/Tasks/Lines.md
+Execution/Tasks/Tasks.md
+Projects/Agri/Agri.md
+Projects/Tokenization/BirrPoints.md
+Projects/Tokenization/ConsensusChain.md
+Projects/Tokenization/ECMA_Sandbox.md
+Projects/Tokenization/ETBT.md
+Projects/Tokenization/FACTS.md
+Projects/Tokenization/MINT_Project.md
+Projects/Tokenization/SBIR.md
+Projects/Tokenization/SBIRR PLAN.csv
+Projects/Tokenization/SBIRR PLAN_all.csv
+Projects/Tokenization/Tokenization.md
+Projects/VISA/VISA.md
+Products/Akafay/ADR_Index.md
+Products/Akafay/Akafay.md
+Products/Akafay/Roadmap.md
+Products/Birrezy/ADR_Index.md
+Products/Birrezy/Birrezy.md
+Products/Birrezy/Roadmap.md
+Products/Decision_PRO/ADR_Index.md
+Products/Decision_PRO/Decision_PRO.md
+Products/Decision_PRO/Roadmap.md
+Products/EquityOne/EquityOne.md
+Products/EquityOne/Roadmap.md
+Organization/Charter_and_Decision_Rights.md
+Organization/Completeness_Matrix.md
+Organization/Corporate_Profile.md
+Organization/Glossary.md
+Organization/HADID.md
+Organization/README.md
+Products/Wallet_Plus/ADR_Index.md
+Products/Wallet_Plus/Roadmap.md
+Products/Wallet_Plus/Wallet_Plus.md
+Products/Watchdog/ADR_Index.md
+Products/Watchdog/Roadmap.md
+Products/Watchdog/Watchdog.md
+Products/Watchdog/Watchdog_WI3_Boundary.md
+Knowledge_Base/Crypto_and_DeFi/CDPs.md
+Knowledge_Base/Crypto_and_DeFi/Consensus_PoW_PoS_BFT.md
+Knowledge_Base/Crypto_and_DeFi/Crypto_Derivatives.md
+Knowledge_Base/Crypto_and_DeFi/Layer2_Rollups_and_Metrics.md
+Knowledge_Base/Crypto_and_DeFi/Proof_of_Reserves.md
+Knowledge_Base/Crypto_and_DeFi/Smart_Contracts.md
+Knowledge_Base/Crypto_and_DeFi/Stablecoins.md
+Knowledge_Base/Crypto_and_DeFi/Web3_Architecture_Overview.md
+Knowledge_Base/Crypto_and_DeFi/ZK_Rollups_and_Proofs.md
+Execution/Engagements/Banks/Bunna.md
+Execution/Engagements/Banks/Zemen.md
+Execution/Tasks/Meetings/Meet With Hanna.md
+Execution/Tasks/Meetings/Meet with DR Brook.md
+Execution/Tasks/Meetings/Meet with DR Seble.md
+Execution/Tasks/Meetings/Meet with Solomon.md
+Execution/Tasks/Meetings/Meeting with Selam.md
+Products/WI3/ADR_Index.md
+Products/WI3/Roadmap.md
+Products/WI3/WI3.md
+Products/Akafay/AIS_and_Decision_PRO/AIS_Technical_Specification.md
+Products/Akafay/AIS_and_Decision_PRO/Akafay_Decision_PRO_Embed.md
+Products/Akafay/AIS_and_Decision_PRO/Decision_PRO_Command_Center.md
+Products/Akafay/AIS_and_Decision_PRO/Decision_PRO_Service_Level_Agreements.md
+Products/Akafay/AIS_and_Decision_PRO/Implementation_and_Roadmap.md
+Products/Akafay/AIS_and_Decision_PRO/README.md
+Products/Akafay/Compliance_and_Regulatory/Asset_Murabaha_Ledger_Specs.md
+Products/Akafay/Compliance_and_Regulatory/Control_Matrix_Akafay.md
+Products/Akafay/Compliance_and_Regulatory/Corridor_Compliance_Map.md
+Products/Akafay/Compliance_and_Regulatory/Fair_Lending_Policy.md
+Products/Akafay/Compliance_and_Regulatory/INSA_Security_Audit_Dossier.md
+Products/Akafay/Compliance_and_Regulatory/NBE_Compliance_Guidelines.md
+Products/Akafay/Compliance_and_Regulatory/NBE_Sandbox_Compliance_Log.md
+Products/Akafay/Compliance_and_Regulatory/Regulatory_Register.md
+Products/Akafay/Compliance_and_Regulatory/Security_Issue_Log.md
+Products/Akafay/Compliance_and_Regulatory/Sharia_Purification_Workflow.md
+Products/Akafay/Diagrams/EXCAL_Akafay_Architecture.md
+Products/Akafay/Diagrams/README.md
+Projects/Tokenization/Graphics/Pasted image 20260519150457.png
+Knowledge_Base/Identity_and_Custody/MPC_and_IDENTUS.md
+Execution/Engagements/Government/EAII.md
+Execution/Engagements/Government/ECMA.md
+Execution/Engagements/Government/INSA.md
+Execution/Engagements/Government/MINT.md
+Execution/Engagements/Government/NBE.md
+Products/Akafay/Architecture_and_Engineering/AIS_Risk_Engine.md
+Products/Akafay/Architecture_and_Engineering/Embedded_Lending_and_Risk_Models.md
+Products/Akafay/Architecture_and_Engineering/Merchant_Integration_SDK.md
+Products/Akafay/Architecture_and_Engineering/Mobile_Application_Specs.md
+Products/Akafay/Architecture_and_Engineering/System_Architecture_Overview.md
+Products/Akafay/Architecture_and_Engineering/Tokenized_Card_Issuance_Specs.md
+Products/Akafay/Architecture_and_Engineering/Web_Application_Specs.md
+Products/Decision_PRO/Architecture_and_Engineering/Decision_PRO_Architecture_Overview.md
+Products/Decision_PRO/Architecture_and_Engineering/Decision_PRO_Audit_and_Security_Logs.md
+Products/Decision_PRO/Architecture_and_Engineering/Decision_PRO_MLOps_and_Scoring_Logic.md
+Products/Decision_PRO/Architecture_and_Engineering/Decision_PRO_Real_Time_Streaming_Specs.md
+Products/EquityOne/Architecture_and_Engineering/EquityOne_Architecture_Overview.md
+Products/EquityOne/Architecture_and_Engineering/Hadid_Assets.md
+Organization/Indexes/Compliance_Command_Center.md
+Organization/Indexes/Dashboard.md
+Organization/Indexes/Engineering_Status.md
+Organization/Indexes/Executive_Overview.md
+Organization/Indexes/HADID_Central.md
+Organization/Indexes/Product_Operations.md
+Organization/Indexes/README.md
+Products/Akafay/Integrations/Bunna_A2A_Handshake.md
+Products/Akafay/Integrations/CBS_Integration.md
+Products/Akafay/Integrations/CBS_Integration_Discovery_Questions.md
+Products/Akafay/Integrations/CBS_Integration_Security_Questions.md
+Products/Akafay/Integrations/EthSwitch_Integration.md
+Products/Akafay/Integrations/Integrations_Overview.md
+Products/Akafay/Integrations/Mobile_Money_Integrations.md
+Products/Akafay/Integrations/Security_Overview.md
+Products/Wallet_Plus/Architecture_and_Engineering/Design_Decisions.md
+Products/Wallet_Plus/Architecture_and_Engineering/Fayda_Zero_Knowledge_Bridge.md
+Products/Wallet_Plus/Architecture_and_Engineering/MPC_Shard_Recovery_SOP.md
+Products/Wallet_Plus/Architecture_and_Engineering/Wallet_Plus_Account_Abstraction_Specs.md
+Products/Wallet_Plus/Architecture_and_Engineering/Wallet_Plus_Architecture_Overview.md
+Products/Wallet_Plus/Architecture_and_Engineering/Wallet_Plus_DESIGN.md
+Products/Wallet_Plus/Architecture_and_Engineering/Wallet_Plus_Fayda_Identity_Integration.md
+Products/Wallet_Plus/Architecture_and_Engineering/Wallet_Plus_MPC_Key_Management.md
+Products/Watchdog/Architecture_and_Engineering/Behavioral_Telemetry_Matrix.md
+Products/Watchdog/Architecture_and_Engineering/Knowledge_Graph_Topology.md
+Products/Watchdog/Architecture_and_Engineering/Watchdog_Platform_Spec.md
+Products/Birrezy/Architecture_and_Engineering/Birrezy_Architecture_Overview.md
+Products/Birrezy/Architecture_and_Engineering/Birrezy_Liquidity_and_Market_Making.md
+Products/Birrezy/Architecture_and_Engineering/Birrezy_Partner_Integration_API.md
+Products/Birrezy/Architecture_and_Engineering/Birrezy_Reconciliation_and_Settlement_Protocol.md
+Products/Birrezy/Architecture_and_Engineering/Birrezy_Settlement_Rails_and_Corridor_Model.md
+Products/Birrezy/Architecture_and_Engineering/Fee_Splitting_Engine.md
+Products/Birrezy/Architecture_and_Engineering/Multi_Rail_Ingress_Mapping.md
+Products/Birrezy/Architecture_and_Engineering/Partner_API_Catalog.md
+Products/Birrezy/Architecture_and_Engineering/Side_Channel_Manifest_API.md
+Execution/Engagements/NGO/Gates.md
+Products/Birrezy/Commercial/PRICING.md
+Products/Birrezy/Commercial/RISK.md
+Products/Decision_PRO/Compliance_and_Regulatory/Decision_PRO_NBE_Compliance_Matrix.md
+Products/WI3/Architecture_and_Engineering/WI3_Architecture_Overview.md
+Products/EquityOne/Compliance_and_Regulatory/EquityOne_Compliance_Posture.md
+Products/Wallet_Plus/Compliance_and_Regulatory/Wallet_Plus_NBE_Sandbox_Dossier.md
+Organization/Templates/TPL_Compliance_Log.md
+Organization/Templates/TPL_Corridor.md
+Organization/Templates/TPL_Daily_Note.md
+Organization/Templates/TPL_Decision_Record.md
+Organization/Templates/TPL_Engagement.md
+Organization/Templates/TPL_Integration.md
+Organization/Templates/TPL_KB_Article.md
+Organization/Templates/TPL_Literature_Readwise.md
+Organization/Templates/TPL_Literature_Zotero.md
+Organization/Templates/TPL_Meeting.md
+Organization/Templates/TPL_Project.md
+Organization/Templates/TPL_Regulatory.md
+Organization/Templates/TPL_Spec.md
+Organization/Templates/Templates.md
+Knowledge_Base/Markets_and_Instruments/Arbitrage.md
+Knowledge_Base/Markets_and_Instruments/Boolean_Trading.md
+Knowledge_Base/Markets_and_Instruments/Brokerages.md
+Knowledge_Base/Markets_and_Instruments/Credit_Underwriting_Evolution.md
+Knowledge_Base/Markets_and_Instruments/DEBTs.md
+Knowledge_Base/Markets_and_Instruments/ESX.md
+Knowledge_Base/Markets_and_Instruments/How_LCs_Work.md
+Knowledge_Base/Markets_and_Instruments/Investment_Funds.md
+Knowledge_Base/Markets_and_Instruments/Margin_Lending.md
+Knowledge_Base/Markets_and_Instruments/Money_Market_Funds.md
+Knowledge_Base/Markets_and_Instruments/Stocks_and_Bonds.md
+Products/Akafay/Operating_System/Compliance_and_Fayda_Anchor.md
+Products/Akafay/Operating_System/Dispute_and_Reversal_Management.md
+Products/Akafay/Operating_System/Ecosystem_Architecture.md
+Products/Akafay/Operating_System/Onboarding_and_KYC_Spec.md
+Knowledge_Base/Payments_and_Rails/BRIDGING.md
+Knowledge_Base/Payments_and_Rails/EthSwitch.md
+Knowledge_Base/Payments_and_Rails/Market_Making_and_AMMs.md
+Knowledge_Base/Payments_and_Rails/PIX.md
+Products/Watchdog/Compliance_and_Regulatory/PDPP_Biometric_Retention_Policy.md
+Products/Akafay/Compliance_and_Regulatory/_Audit_Log/Audit_Log_Index.md
+Products/Akafay/Compliance_and_Regulatory/_Audit_Log/COMP-20260521-001.md
+Products/Akafay/Compliance_and_Regulatory/_Audit_Log/COMP-20260521-002.md
+Products/Akafay/Compliance_and_Regulatory/_Audit_Log/COMP-20260525-001.md
+Products/Akafay/Compliance_and_Regulatory/_Audit_Log/COMP-20260525-002.md
+Products/Birrezy/Compliance_and_Regulatory/Birrezy_Compliance_Reporting_Framework.md
+Products/Birrezy/Compliance_and_Regulatory/Birrezy_Dispute_and_Refund_Policy.md
+Products/Birrezy/Compliance_and_Regulatory/Birrezy_Onboarding_and_KYC_Spec.md
+Products/Birrezy/Compliance_and_Regulatory/Corridor_Compliance_Map.md
+Products/Birrezy/Compliance_and_Regulatory/Travel_Rule_Implementation.md
+Products/Birrezy/Compliance_and_Regulatory/Travel_Rule_Runbook.md
+Products/WI3/Compliance_and_Regulatory/WI3_Compliance_Posture.md
+Products/Wallet_Plus/Diagrams/EXCAL_Wallet_Plus_Fayda_Auth_Flow.md
+Products/Wallet_Plus/Diagrams/EXCAL_Wallet_Plus_MPC_Recovery_Process.md
+Products/Wallet_Plus/Diagrams/FIG_Wallet_Plus_Image_6.png
+Products/Wallet_Plus/Diagrams/README.md
+Products/EquityOne/Diagrams/README.md
+Knowledge_Base/Regulatory/AML_CFT_Ethiopia.md
+Knowledge_Base/Regulatory/Consumer_Protection.md
+Knowledge_Base/Regulatory/DCP_License.md
+Knowledge_Base/Regulatory/Data_Protection_Ethiopia.md
+Knowledge_Base/Regulatory/Fayda_Digital_ID.md
+Knowledge_Base/Regulatory/Green_Channel.md
+Knowledge_Base/Regulatory/Licensing_Related.md
+Knowledge_Base/Regulatory/NBE_Sandbox_Program.md
+Knowledge_Base/Regulatory/NBE_Survey.md
+Knowledge_Base/Regulatory/PSO_and_Payment_Instrument_Issuer.md
+Knowledge_Base/Regulatory/Sanctions_Screening.md
+Knowledge_Base/Regulatory/Stable_Token_Commission.md
+Knowledge_Base/Regulatory/Travel_Rules.md
+Knowledge_Base/Regulatory/US_Regulatory.md
+Knowledge_Base/Regulatory/VASP.md
+Products/Akafay/Operations/Akafay_Reconciliation_SOP.md
+Products/Akafay/Operations/Akafay_Weekend_Liquidity_Buffer.md
+Products/Watchdog/Diagrams/README.md
+Products/WI3/Delivery_and_Roadmap/WI3 Feature Status — Complete Module Inventory.md
+Products/WI3/Delivery_and_Roadmap/WI3 Remaining Work — Phases & Priorities for Full Roadmap Completion.md
+Products/WI3/Delivery_and_Roadmap/WI3 — Complete Feature & Task Inventory.md
+Products/Birrezy/Corridors/Corridors.md
+Products/Birrezy/Corridors/ET-AE.md
+Products/Birrezy/Corridors/ET-ET-domestic.md
+Products/Birrezy/Corridors/ET-EU.md
+Products/Birrezy/Corridors/ET-KE.md
+Products/Birrezy/Corridors/ET-US.md
+Products/Decision_PRO/Integrations/Core_Banking_Handshake.md
+Products/Decision_PRO/Diagrams/EXCAL_Decision_PRO_Logic_Flow.md
+Products/Decision_PRO/Diagrams/EXCAL_Decision_PRO_Risk_Dashboard_Mockup.md
+Products/Decision_PRO/Diagrams/README.md
+Products/EquityOne/Integrations/EquityOne_Integrations_Index.md
+Products/EquityOne/Integrations/Integrations_Index.md
+Products/Akafay/Product_Ecosystem/Agaz_AI_Financial_Advisor.md
+Products/Akafay/Product_Ecosystem/Akafay_BNPL_Core.md
+Products/Akafay/Product_Ecosystem/Akafay_Secure_Framework.md
+Products/Watchdog/Strategy_and_Capital/Watchdog_Product_Brief.md
+Products/Watchdog/Strategy_and_Capital/Watchdog_Strategy_Brief.md
+Products/Wallet_Plus/Integrations/EthSwitch_Wallet_Bridge.md
+Products/Wallet_Plus/Integrations/Fayda_Integration_Contract.md
+Products/Wallet_Plus/Integrations/Omni_Wallet.md
+Products/Birrezy/Diagrams/EXCAL_Birrezy_ET-ET_Flow.md
+Products/Birrezy/Diagrams/EXCAL_Birrezy_ET-US_Flow.md
+Products/Birrezy/Diagrams/FIG_Birrezy_Image_1.png
+Products/Birrezy/Diagrams/FIG_Birrezy_Image_2.png
+Products/Birrezy/Diagrams/FIG_Birrezy_Image_3.png
+Products/Birrezy/Diagrams/FIG_Birrezy_Image_4.png
+Products/Birrezy/Diagrams/README.md
+Products/Birrezy/Diagrams/Rain_-_Card_Program_Pricing_Sheet___Nov_2025.pdf
+Products/Wallet_Plus/Operations/Wallet_Plus_Reconciliation_SOP.md
+Products/Wallet_Plus/Operations/Wallet_Plus_Weekend_Ops_Buffer.md
+Products/Decision_PRO/Product_Ecosystem/Decision_PRO_Feature_Matrix.md
+Products/Decision_PRO/Product_Ecosystem/Decision_PRO_Localization_Amharic.md
+Products/Decision_PRO/Product_Ecosystem/Decision_PRO_User_Roles_and_RBAC.md
+Products/EquityOne/Product_Ecosystem/EquityOne_Feature_Brief.md
+Products/EquityOne/Product_Ecosystem/Tokenized_Deposits_for_Banks.md
+Products/Akafay/Strategy_and_Capital/Akafay_Executive_Summary.md
+Products/Akafay/Strategy_and_Capital/Bunna_Bank_Partnership_SOW.md
+Products/Akafay/Strategy_and_Capital/Commercial_Model_and_Pitch.md
+Products/Akafay/Strategy_and_Capital/Commercial_Scaling_Flywheel.md
+Products/Akafay/Strategy_and_Capital/Investment_Proposal_and_Metrics.md
+Products/Birrezy/Operations/Reverse_Manifest_Protocol.md
+Products/Birrezy/Operations/T4_Weekend_Buffer_Rules.md
+Products/Birrezy/Product_Ecosystem/Competitive_Landscape.md
+Products/Birrezy/Product_Ecosystem/HOW_THE_OTHERS_WORK.md
+Products/WI3/Diagrams/README.md
+Products/Birrezy/_Working/QUESTIONS.md
+Products/Birrezy/_Working/READ.md
+Products/WI3/Product_Ecosystem/CONCEPTS.md
+Products/Decision_PRO/Strategy_and_Capital/Decision_PRO_Commercial_Flywheel.md
+Products/Decision_PRO/Strategy_and_Capital/Decision_PRO_Executive_Summary.md
+Products/Decision_PRO/Strategy_and_Capital/Decision_PRO_Roadmap.md
+Products/Wallet_Plus/Product_Ecosystem/DARS_Pal_Tokenization_Schema.md
+Products/Wallet_Plus/Product_Ecosystem/Wallet_Plus_Feature_Set.md
+Products/Wallet_Plus/Product_Ecosystem/Wallet_Plus_Supplement.md
+Products/Wallet_Plus/Product_Ecosystem/Wallet_Plus_USSD_Offline_Layer.md
+Products/Wallet_Plus/Product_Ecosystem/Wallet_Plus_UX_and_Onboarding_Flow.md
+Products/Birrezy/Strategy_and_Capital/Birrezy_Commercial_Flywheel.md
+Products/Birrezy/Strategy_and_Capital/Birrezy_Deck.md
+Products/Birrezy/Strategy_and_Capital/Birrezy_Executive_Summary.md
+Products/Birrezy/Strategy_and_Capital/Birrezy_Financial_Model_Authority.md
+Products/EquityOne/Strategy_and_Capital/EquityOne_Executive_Summary.md
+Products/EquityOne/Strategy_and_Capital/Equity_One_RWA.md
+Products/EquityOne/Strategy_and_Capital/T-Bill_Tokenization_Project.md
+Products/Birrezy/Strategy_and_Capital/Birrezy_Invest.md
+Products/WI3/Strategy_and_Capital/Briefing.md
+Products/WI3/Strategy_and_Capital/WI3_Introduction.md
+Products/Wallet_Plus/Strategy_and_Capital/Wallet_Plus_Commercial_Flywheel.md
+Products/Wallet_Plus/Strategy_and_Capital/Wallet_Plus_Executive_Summary.md
+Products/Wallet_Plus/Strategy_and_Capital/Wallet_Plus_Roadmap.md
+
+=== ONLY REMOTE (pull) ===
+.space/context.mdb
+.space/def.json
+.space/views.mdb
+.space/waypoints.json
+.obsidian/app.json
+.obsidian/appearance.json
+.obsidian/bookmarks.json
+.obsidian/community-plugins.json
+.obsidian/core-plugins.json
+.obsidian/graph.json
+.obsidian/types.json
+.obsidian/workspace.json
+.trash/2026-05-30.md
+.trash/BIRREZY PLAN.csv
+.trash/BIRREZY PLAN_all.csv
+.trash/Birrezy Per Bank.csv
+.trash/Birrezy Per Bank_all.csv
+.trash/Cardano_Midnight_Ecosystem.md
+.trash/Design SBir.md
+.trash/ETBT.md
+.trash/EXCAL_Birrezy_ET-US_Flow.md
+.trash/Executive_Cockpit.md
+.trash/Literature_Desk.md
+.trash/M0.md
+.trash/MINT.md
+.trash/Media.md
+.trash/NEW PAYMENT STRUCTURES.md
+.trash/NEW.md
+.trash/Rectangle_1_(9).png
+.trash/Untitled 2.md
+.trash/Untitled 3.md
+.trash/Untitled.md
+.trash/index.html
+.makemd/fileCache.mdc
+.makemd/superstate.mdc
+.obsidian/snippets/hadid-callouts.css
+.obsidian/snippets/hadid-compliance-status.css
+.obsidian/snippets/hadid-corridor.css
+.obsidian/snippets/hadid-dashboard-tables.css
+.obsidian/snippets/hadid-deprecated.css
+.obsidian/snippets/hadid-hub-borders.css
+.obsidian/snippets/hadid-kb.css
+.obsidian/snippets/hadid-spec.css
+.obsidian/snippets/hadid-status-properties.css
+.trash/Financial/Financial.md
+.trash/Deprecated_Redirects_2026/404_Control_Matrix.md
+.trash/Legacy_KB_2026/MPC.md
+.trash/Legacy_KB_2026/Market Making.md
+.trash/Legacy_KB_2026/NBE Sandbox.md
+.trash/Legacy_KB_2026/Project.md
+.trash/Legacy_KB_2026/Projects.md
+.trash/Legacy_KB_2026/Smart Contracts.md
+.trash/Legacy_KB_2026/Web3 challenger.md
+.trash/Legacy_KB_2026/smart contract.md
+.trash/Plans/Plans.md
+.obsidian/themes/Red-Shadow/manifest.json
+.obsidian/themes/Red-Shadow/theme.css
+.obsidian/themes/GitHub Theme/manifest.json
+.obsidian/themes/GitHub Theme/theme.css
+.obsidian/themes/VSCode Dark Modern/manifest.json
+.obsidian/themes/VSCode Dark Modern/theme.css
+.obsidian/themes/Obsidian gruvbox/manifest.json
+.obsidian/themes/Obsidian gruvbox/theme.css
+.obsidian/plugins/copilot/data.json
+.obsidian/plugins/copilot/main.js
+.obsidian/plugins/copilot/manifest.json
+.obsidian/plugins/copilot/styles.css
+.obsidian/themes/Wasp/manifest.json
+.obsidian/plugins/calendar/data.json
+.obsidian/plugins/calendar/main.js
+.obsidian/plugins/calendar/manifest.json
+.obsidian/plugins/csv-allinone/main.js
+.obsidian/plugins/csv-allinone/manifest.json
+.obsidian/plugins/csv-allinone/styles.css
+.trash/Akafay_Vault/60_Excalidraw/EXCAL_Birrezy_ET-ET_Flow.excalidraw.md
+.trash/Akafay_Vault/60_Excalidraw/EXCAL_Birrezy_ET-US_Flow.excalidraw.md
+.obsidian/plugins/csv-obsidian/main.js
+.obsidian/plugins/csv-obsidian/manifest.json
+.obsidian/plugins/csv-obsidian/styles.css
+.trash/Financial/.space/def.json
+.trash/Financial/.space/views.mdb
+.obsidian/plugins/csv-lite/main.js
+.obsidian/plugins/csv-lite/manifest.json
+.obsidian/plugins/csv-lite/styles.css
+.trash/Akafay_Vault 2/60_Excalidraw/EXCAL_Birrezy_ET-ET_Flow.excalidraw.md
+.trash/Akafay_Vault 2/60_Excalidraw/EXCAL_Birrezy_ET-US_Flow.excalidraw.md
+.trash/Literature/Zotero/000_Zotero_Import_Hub.md
+.trash/Literature 2/Readwise/Readwise_Import_Hub.md
+.trash/Literature 2/Zotero/Zotero_Import_Hub.md
+.trash/Plans/.space/def.json
+.trash/Literature/Readwise/000_Readwise_Import_Hub.md
