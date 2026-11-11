@@ -8150,3 +8150,281 @@ Transferred:            2 / 2, 100%
 Elapsed time:     17m57.7s
 
 [2026-09-18 20:07:41] PUSH done
+[2026-10-05 11:13:56] PULL start (Nextcloud → local) 
+2026/10/05 11:14:09 INFO  : X-PLAN/architecture/exports/X Enterprise OS - Solution Architecture - V1.pdf: Copied (new)
+2026/10/05 11:14:13 INFO  : X-PLAN/resources/Assessments/Backend - Isolation, DBA (Expert).md: Copied (new)
+2026/10/05 11:14:13 INFO  : X-PLAN/resources/Assessments/Backend - ERP, Trade Workflows.md: Copied (new)
+2026/10/05 11:14:13 INFO  : X-PLAN/resources/Assessments/Senior QA, SET Engineer.md: Copied (new)
+2026/10/05 11:14:14 INFO  : X-PLAN/resources/Assessments/Senior Writer Trainer.md: Copied (new)
+2026/10/05 11:14:16 INFO  : X-PLAN/resources/Assessments/Frontend Engineering Lead (Senior, 5–10 yrs).md: Copied (replaced existing)
+2026/10/05 11:14:16 INFO  : X-PLAN/resources/Assessments/UX UI Designer Senior.md: Copied (new)
+2026/10/05 11:14:17 INFO  : X-PLAN/resources/Assessments/Interview 1 - MASTER TRACKER.md: Copied (replaced existing)
+2026/10/05 11:14:17 INFO  : X-PLAN/resources/Assessments/Backend - IAM & Identity (Senior, 5–10 yrs).md: Copied (replaced existing)
+2026/10/05 11:14:18 INFO  : X-PLAN/resources/third party/list of communities identified.docx: Copied (new)
+2026/10/05 11:14:18 INFO  : X-PLAN/resources/Assessments/Scrum Master (Senior, 5–10 yrs).md: Copied (replaced existing)
+2026/10/05 11:14:19 INFO  : X-PLAN/resources/CV/Etech Madagascar/Etech [X0029_MXEN] Security Architect (Delivery).pdf: Copied (new)
+2026/10/05 11:14:19 INFO  : X-PLAN/resources/CV/Etech Madagascar/Etech [935_MXEN] Senior Domain Business Analyst & Scrum Master.pdf: Copied (new)
+2026/10/05 11:14:19 INFO  : X-PLAN/resources/CV/Etech Madagascar/Etech [X0031_MXEN] Backend IAM Consultant.pdf: Copied (new)
+2026/10/05 11:14:19 INFO  : X-PLAN/resources/CV/Etech Madagascar/Etech [X1888_MXEN] Senior Writer Trainer & Agile Coach.pdf: Copied (new)
+2026/10/05 11:14:20 INFO  : X-PLAN/resources/CV/Etech Madagascar/Etech [X2830_MXEN] Senior QA _ SET Engineer.pdf: Copied (new)
+2026/10/05 11:14:20 INFO  : X-PLAN/resources/CV/Etech Madagascar/Etech [X5000_MXEN] Senior Domain Business Analyst _ AMOA Consultant.pdf: Copied (new)
+2026/10/05 11:14:20 INFO  : X-PLAN/resources/CV/Etech Madagascar/REVIEWS.md: Copied (replaced existing)
+2026/10/05 11:14:20 INFO  : X-PLAN/resources/CV/Case Madagascar/CASE BE 002 - Senior Backend Engineer.pdf: Copied (new)
+2026/10/05 11:14:21 INFO  : X-PLAN/resources/CV/Case Madagascar/CASE BE-006 Senior Backend Engineer.pdf: Copied (new)
+2026/10/05 11:14:21 INFO  : X-PLAN/resources/CV/Case Madagascar/CASE DES 001 - UI UX Designer.pdf: Copied (new)
+2026/10/05 11:14:21 INFO  : X-PLAN/resources/CV/Case Madagascar/CASE FE 001 - Senior Frontend Engineer.pdf: Copied (new)
+2026/10/05 11:14:21 INFO  : X-PLAN/resources/CV/Case Madagascar/CASE DES-004 Senior UX UI Designer.pdf: Copied (new)
+2026/10/05 11:14:21 INFO  : X-PLAN/resources/CV/Case Madagascar/CASE FE-007 Senior Frontend Engineer.pdf: Copied (new)
+2026/10/05 11:14:22 INFO  : X-PLAN/resources/CV/Case Madagascar/REVIEWS.md: Copied (new)
+2026/10/05 11:14:22 INFO  : X-PLAN/architecture/figures/package-lock.json: Deleted
+2026/10/05 11:14:22 INFO  : X-PLAN/architecture/figures/package.json: Deleted
+2026/10/05 11:14:22 INFO  : X-PLAN/architecture/figures/puppeteer.json: Deleted
+2026/10/05 11:14:22 INFO  : X-PLAN/resources/CV/Case Madagascar/case.md: Deleted
+2026/10/05 11:14:22 INFO  : X-PLAN/architecture/export-gdoc-md.sh: Deleted
+2026/10/05 11:14:22 INFO  : X-PLAN/architecture/figures/pack-partner.sh: Deleted
+2026/10/05 11:14:22 INFO  : 
+Transferred:   	    6.972 MiB / 6.972 MiB, 100%, 445.751 KiB/s, ETA 0s
+Checks:               732 / 732, 100%
+Deleted:                6 (files), 0 (dirs)
+Transferred:           25 / 25, 100%
+Elapsed time:        25.9s
+
+[2026-10-05 11:14:22] PULL done
+[2026-10-05 12:43:31] PULL start (Nextcloud → local) 
+2026/10/05 12:43:49 INFO  : There was nothing to transfer
+2026/10/05 12:43:49 INFO  : 
+Transferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:               746 / 746, 100%
+Elapsed time:        17.9s
+
+[2026-10-05 12:43:49] PULL done
+[2026-10-05 13:00:49] PULL start (Nextcloud → local) 
+2026/10/05 13:01:00 INFO  : X-PLAN/operations/Temporary development server - Rent dedicated.md: Copied (new)
+2026/10/05 13:01:08 INFO  : 
+Transferred:   	    6.652 KiB / 6.652 KiB, 100%, 681 B/s, ETA 0s
+Checks:               746 / 746, 100%
+Transferred:            1 / 1, 100%
+Elapsed time:        18.8s
+
+[2026-10-05 13:01:08] PULL done
+[2026-10-22 15:49:59] PULL start (Nextcloud → local) 
+2026/10/22 15:50:37 INFO  : X-PLAN/resources/WAVE 1/WAVE 1 TOP 5.md: Copied (new)
+2026/10/22 15:50:38 INFO  : X-PLAN/resources/Assessments/INTERVIEW-2-LINEUP.md: Copied (new)
+2026/10/22 15:50:46 INFO  : X-PLAN/resources/WAVE 1/INTERVIEWS/SRE- FACTORY.md: Copied (new)
+2026/10/22 15:50:47 INFO  : X-PLAN/resources/WAVE 1/INTERVIEWS/SRE.md: Copied (new)
+2026/10/22 15:50:48 INFO  : 
+Transferred:   	  136.385 KiB / 136.385 KiB, 100%, 8.524 KiB/s, ETA 0s
+Checks:               747 / 747, 100%
+Transferred:            4 / 4, 100%
+Elapsed time:        49.1s
+
+[2026-10-22 15:50:48] PULL done
+[2026-10-23 17:54:12] PULL start (Nextcloud → local) 
+2026/10/23 17:54:40 INFO  : X-PLAN/resources/WAVE 1/Application - Secure On-Premises Delivery Programme (Responses).xlsx: Copied (new)
+2026/10/23 17:54:41 INFO  : X-PLAN/resources/WAVE 1/WAVE 1 TOP 5.md: Copied (replaced existing)
+2026/10/23 17:54:44 INFO  : X-PLAN/resources/WAVE 1/INTERVIEWS/BACK END – IAM.md: Copied (new)
+2026/10/23 17:54:44 INFO  : X-PLAN/resources/WAVE 1/INTERVIEWS/BACK END – ISOLATION.md: Copied (new)
+2026/10/23 17:54:44 INFO  : X-PLAN/resources/WAVE 1/INTERVIEWS/BACK END – ERP.md: Copied (new)
+2026/10/23 17:54:44 INFO  : 
+Transferred:   	  410.786 KiB / 410.786 KiB, 100%, 49.169 KiB/s, ETA 0s
+Checks:               751 / 751, 100%
+Transferred:            5 / 5, 100%
+Elapsed time:        32.3s
+
+[2026-10-23 17:54:44] PULL done
+[2026-10-23 19:21:23] PUSH start (local → Nextcloud) 
+2026/10/23 19:21:37 INFO  : X-PLAN/RAID.md: Copied (replaced existing)
+2026/10/23 19:21:38 INFO  : X-PLAN/project_x_master_analysis.md: Copied (new)
+2026/10/23 19:21:43 INFO  : X-PLAN/architecture/solution-architecture.md: Copied (replaced existing)
+2026/10/23 19:21:45 INFO  : X-PLAN/commercial/contract-pack-index.md: Copied (replaced existing)
+2026/10/23 19:21:47 INFO  : X-PLAN/commercial/contract-reconciliation.md: Copied (replaced existing)
+2026/10/23 19:21:47 INFO  : X-PLAN/commercial/hiring.md: Copied (replaced existing)
+2026/10/23 19:21:52 INFO  : X-PLAN/commercial/payment-doctrine.md: Copied (replaced existing)
+2026/10/23 19:21:54 INFO  : X-PLAN/commercial/programme-fees.md: Copied (replaced existing)
+2026/10/23 19:21:55 INFO  : X-PLAN/commercial/role-per-phase.md: Copied (replaced existing)
+2026/10/23 19:21:55 INFO  : X-PLAN/phases/README.md: Copied (replaced existing)
+2026/10/23 19:21:56 INFO  : X-PLAN/phases/design-and-update-checklist.md: Copied (replaced existing)
+2026/10/23 19:21:57 INFO  : X-PLAN/phases/milestone-register.md: Copied (replaced existing)
+2026/10/23 19:21:58 INFO  : X-PLAN/phases/phase-1-fast-track.md: Copied (replaced existing)
+2026/10/23 19:21:59 INFO  : X-PLAN/phases/pre-contract.md: Copied (replaced existing)
+2026/10/23 19:22:00 INFO  : X-PLAN/summaries/00-executive-brief.md: Copied (replaced existing)
+2026/10/23 19:22:01 INFO  : X-PLAN/summaries/01-phases-and-delivery.md: Copied (replaced existing)
+2026/10/23 19:22:01 INFO  : X-PLAN/summaries/06-commercial.md: Copied (replaced existing)
+2026/10/23 19:22:02 INFO  : X-PLAN/commercial/contract-pack/README.md: Copied (replaced existing)
+2026/10/23 19:22:03 INFO  : X-PLAN/commercial/contract-pack/REWRITE-CHECKLIST.md: Copied (replaced existing)
+2026/10/23 19:22:05 INFO  : X-PLAN/client/evidence/requirements/MD/timeline-mapping.md: Copied (replaced existing)
+2026/10/23 19:22:05 INFO  : 
+Transferred:   	  494.855 KiB / 494.855 KiB, 100%, 9.657 KiB/s, ETA 0s
+Checks:               755 / 755, 100%
+Transferred:           20 / 20, 100%
+Elapsed time:        41.7s
+
+[2026-10-23 19:22:05] PUSH done
+[2026-10-27 16:09:24] PULL start (Nextcloud → local) 
+2026/10/27 16:09:48 INFO  : X-PLAN/resources/WAVE 1/WAVE 1 TOP 5.md: Copied (replaced existing)
+2026/10/27 16:09:49 INFO  : 
+Transferred:   	   23.650 KiB / 23.650 KiB, 100%, 7.882 KiB/s, ETA 0s
+Checks:               756 / 756, 100%
+Transferred:            1 / 1, 100%
+Elapsed time:        25.3s
+
+[2026-10-27 16:09:49] PULL done
+[2026-10-27 16:28:36] PUSH start (local → Nextcloud) 
+2026/10/27 16:28:47 INFO  : X-PLAN/phases/E2E-program-plan.md: Copied (new)
+2026/10/27 16:28:55 INFO  : 
+Transferred:   	   27.456 KiB / 27.456 KiB, 100%, 1.962 KiB/s, ETA 0s
+Checks:               756 / 756, 100%
+Transferred:            1 / 1, 100%
+Elapsed time:        19.4s
+
+[2026-10-27 16:28:55] PUSH done
+[2026-10-27 16:46:01] PUSH start (local → Nextcloud) 
+2026/10/27 16:46:11 INFO  : X-PLAN/Project_X_Master_E2E_Plan.xlsx: Copied (new)
+2026/10/27 16:48:22 INFO  : X-PLAN/phases/E2E-program-plan.md: Copied (replaced existing)
+2026/10/27 16:48:22 INFO  : 
+Transferred:   	  137.861 KiB / 137.861 KiB, 100%, 1.281 KiB/s, ETA 0s
+Checks:               757 / 757, 100%
+Transferred:            2 / 2, 100%
+Elapsed time:      2m21.3s
+
+[2026-10-27 16:48:22] PUSH done
+[2026-10-27 17:19:11] PUSH start (local → Nextcloud) 
+2026/10/27 17:19:22 INFO  : X-PLAN/RAID.md: Copied (replaced existing)
+2026/10/27 17:19:27 INFO  : X-PLAN/architecture/network-and-mesh.md: Copied (replaced existing)
+2026/10/27 17:19:29 INFO  : X-PLAN/commercial/hiring.md: Copied (replaced existing)
+2026/10/27 17:19:30 INFO  : X-PLAN/phases/E2E-program-plan.md: Copied (replaced existing)
+2026/10/27 17:19:36 INFO  : X-PLAN/phases/phase-1-fast-track.md: Copied (replaced existing)
+2026/10/27 17:19:38 INFO  : X-PLAN/phases/pre-contract.md: Copied (replaced existing)
+2026/10/27 17:19:38 INFO  : X-PLAN/treasury/taint-and-hygiene.md: Copied (replaced existing)
+2026/10/27 17:19:40 INFO  : X-PLAN/client/raci/reconciliation-register.md: Copied (replaced existing)
+2026/10/27 17:19:58 INFO  : X-PLAN/Project_X_Master_E2E_Plan.xlsx: Copied (replaced existing)
+2026/10/27 17:19:58 INFO  : 
+Transferred:   	  243.679 KiB / 243.679 KiB, 100%, 4.618 KiB/s, ETA 0s
+Checks:               758 / 758, 100%
+Transferred:            9 / 9, 100%
+Elapsed time:        46.8s
+
+[2026-10-27 17:19:58] PUSH done
+[2026-10-27 17:31:29] PUSH start (local → Nextcloud) 
+2026/10/27 17:31:39 INFO  : X-PLAN/Project_X_Master_E2E_Plan.xlsx: Copied (replaced existing)
+2026/10/27 17:31:45 INFO  : X-PLAN/phases/E2E-program-plan.md: Copied (replaced existing)
+2026/10/27 17:31:49 INFO  : 
+Transferred:   	   74.560 KiB / 74.560 KiB, 100%, 4.367 KiB/s, ETA 0s
+Checks:               758 / 758, 100%
+Transferred:            2 / 2, 100%
+Elapsed time:        20.6s
+
+[2026-10-27 17:31:49] PUSH done
+[2026-10-27 17:41:53] PUSH start (local → Nextcloud) 
+2026/10/27 17:42:03 INFO  : X-PLAN/Project_X_Master_E2E_Plan.xlsx: Copied (replaced existing)
+2026/10/27 17:42:15 INFO  : X-PLAN/resources/WAVE 1/WAVE 1 FILTER SHEET.md: Copied (new)
+2026/10/27 17:42:15 INFO  : X-PLAN/resources/WAVE 1/Application - Secure On-Premises Delivery Programme (Responses).xlsx: Copied (replaced existing)
+2026/10/27 17:42:15 INFO  : X-PLAN/resources/WAVE 1/WAVE 1 Filter Sheet.xlsx: Copied (new)
+2026/10/27 17:42:15 INFO  : 
+Transferred:   	  547.003 KiB / 547.003 KiB, 100%, 30.043 KiB/s, ETA 0s
+Checks:               758 / 758, 100%
+Transferred:            4 / 4, 100%
+Elapsed time:        21.8s
+
+[2026-10-27 17:42:15] PUSH done
+[2026-10-27 17:51:43] PUSH start (local → Nextcloud) 
+2026/10/27 17:51:52 INFO  : X-PLAN/Project_X_Master_E2E_Plan.xlsx: Copied (replaced existing)
+2026/10/27 17:51:55 INFO  : X-PLAN/phases/E2E-program-plan.md: Copied (replaced existing)
+2026/10/27 17:52:02 INFO  : X-PLAN/resources/WAVE 1/WAVE 1 Filter Sheet.xlsx: Copied (replaced existing)
+2026/10/27 17:52:04 INFO  : 
+Transferred:   	  124.238 KiB / 124.238 KiB, 100%, 6.821 KiB/s, ETA 0s
+Checks:               760 / 760, 100%
+Transferred:            3 / 3, 100%
+Elapsed time:        21.5s
+
+[2026-10-27 17:52:04] PUSH done
+[2026-10-27 19:02:03] PUSH start (local → Nextcloud) 
+2026/10/27 19:02:13 INFO  : X-PLAN/test_dv.xlsx: Copied (new)
+2026/10/27 19:02:25 INFO  : X-PLAN/resources/WAVE 1/WAVE 1 Filter Sheet.xlsx: Copied (replaced existing)
+2026/10/27 19:02:25 INFO  : X-PLAN/resources/WAVE 1/WAVE 1 FILTER SHEET.md: Copied (replaced existing)
+2026/10/27 19:02:26 INFO  : X-PLAN/resources/WAVE 1/Application - Secure On-Premises Delivery Programme (Responses).xlsx: Copied (replaced existing)
+2026/10/27 19:02:27 INFO  : 
+Transferred:   	  614.818 KiB / 614.818 KiB, 100%, 31.686 KiB/s, ETA 0s
+Checks:               760 / 760, 100%
+Transferred:            4 / 4, 100%
+Elapsed time:        23.1s
+
+[2026-10-27 19:02:27] PUSH done
+[2026-10-27 19:19:20] PUSH start (local → Nextcloud) 
+2026/10/27 19:19:42 INFO  : X-PLAN/resources/WAVE 1/Application - Secure On-Premises Delivery Programme (Responses).xlsx: Copied (replaced existing)
+2026/10/27 19:19:42 INFO  : X-PLAN/resources/WAVE 1/WAVE 1 FILTER SHEET.md: Copied (replaced existing)
+2026/10/27 19:19:42 INFO  : X-PLAN/resources/WAVE 1/WAVE 1 Filter Sheet.xlsx: Copied (replaced existing)
+2026/10/27 19:19:42 INFO  : 
+Transferred:   	  589.923 KiB / 589.923 KiB, 100%, 147.435 KiB/s, ETA 0s
+Checks:               761 / 761, 100%
+Transferred:            3 / 3, 100%
+Elapsed time:        22.2s
+
+[2026-10-27 19:19:42] PUSH done
+[2026-10-30 18:49:12] PULL start (Nextcloud → local) 
+2026/10/30 18:49:18 INFO  : X-PLAN/Project_X_Master_E2E_Plan.xlsx: Copied (replaced existing)
+2026/10/30 18:49:26 INFO  : X-PLAN/resources/Assessments/Backend - Isolation, DBA (Expert).md: Copied (replaced existing)
+2026/10/30 18:49:31 INFO  : X-PLAN/resources/WAVE 1/WAVE 1 Filter Sheet.xlsx: Copied (replaced existing)
+2026/10/30 18:49:31 INFO  : X-PLAN/resources/WAVE 1/WAVE 1 FILTER SHEET.md: Copied (replaced existing)
+2026/10/30 18:49:38 INFO  : X-PLAN/resources/WAVE 1/INTERVIEWS/ANDROID.md: Copied (new)
+2026/10/30 18:49:38 INFO  : 
+Transferred:   	  451.708 KiB / 451.708 KiB, 100%, 13.558 KiB/s, ETA 0s
+Checks:               761 / 761, 100%
+Transferred:            5 / 5, 100%
+Elapsed time:        25.8s
+
+[2026-10-30 18:49:38] PULL done
+[2026-11-11 14:01:15] PULL start (Nextcloud → local) 
+2026/11/11 14:01:29 INFO  : X-PLAN/commercial/to procure v2.md: Copied (new)
+2026/11/11 14:01:35 INFO  : X-PLAN/commercial/contract-pack/Tanganyka Afrinspired appendix 3 governance November 2026.pdf: Copied (new)
+2026/11/11 14:01:35 INFO  : X-PLAN/commercial/contract-pack/Tanganyka Afrinspired appendix 2 schedule November 2026.pdf: Copied (new)
+2026/11/11 14:01:35 INFO  : X-PLAN/commercial/contract-pack/Tanganyka Afrinspired appendix 1 SOW November 2026.pdf: Copied (new)
+2026/11/11 14:01:36 INFO  : X-PLAN/commercial/contract-pack/MSA Tanganyka Afrinspired November 2026.pdf: Copied (new)
+2026/11/11 14:01:39 INFO  : X-PLAN/commercial/contract-pack/Tanganyka Afrinspired appendix 7 compliance november 2026.pdf: Copied (new)
+2026/11/11 14:01:39 INFO  : X-PLAN/commercial/contract-pack/Tanganyka Afrinspired appendix 5 quality november 2026.pdf: Copied (new)
+2026/11/11 14:01:39 INFO  : X-PLAN/commercial/contract-pack/Tanganyka Afrinspired appendix 6 Price and payment november 2026.pdf: Copied (new)
+2026/11/11 14:01:39 INFO  : X-PLAN/commercial/contract-pack/Tanganyka Afrinspired appendix 4 methodology November 2026.pdf: Copied (new)
+2026/11/11 14:01:42 INFO  : X-PLAN/resources/Assessments/Backend - IAM & Identity (Senior, 5–10 yrs).md: Copied (replaced existing)
+2026/11/11 14:01:43 INFO  : X-PLAN/resources/WAVE 1/WAVE 1 Filter Sheet.xlsx: Copied (replaced existing)
+2026/11/11 14:01:46 INFO  : X-PLAN/resources/CV/Gear Train Kenya/Android John_Mutuma Geartrain.pdf: Copied (new)
+2026/11/11 14:01:46 INFO  : X-PLAN/resources/CV/Gear Train Kenya/BE IAM Brian_Kisese Geartrain.pdf: Copied (new)
+2026/11/11 14:01:47 INFO  : X-PLAN/resources/CV/Gear Train Kenya/GT Additional Candidates 11Nov2026.pdf: Copied (new)
+2026/11/11 14:01:47 INFO  : X-PLAN/resources/CV/Gear Train Kenya/Android NFC geartrain GT-CV-Vincent_Kawawa.pdf: Copied (new)
+2026/11/11 14:01:47 INFO  : X-PLAN/resources/CV/Gear Train Kenya/GT-Proposed-Team-Rates-Nov-2026.pdf: Copied (new)
+2026/11/11 14:01:47 INFO  : X-PLAN/resources/CV/Gear Train Kenya/ML Roy_Rutto Geartrain.pdf: Copied (new)
+2026/11/11 14:01:48 INFO  : X-PLAN/resources/CV/Gear Train Kenya/QA SET geartrain GT-CV-Meriem_Abubeker.pdf: Copied (new)
+2026/11/11 14:01:48 INFO  : X-PLAN/resources/CV/Gear Train Kenya/QA SET Azariya_Tilahun Geartrain.pdf: Copied (new)
+2026/11/11 14:01:48 INFO  : X-PLAN/resources/CV/Gear Train Kenya/back end ERP geartrain GT-CV-Julius_Ngigi.pdf: Copied (new)
+2026/11/11 14:01:48 INFO  : X-PLAN/resources/CV/Onja Madagascar/Onja FE Kati CV.pdf: Copied (new)
+2026/11/11 14:01:49 INFO  : X-PLAN/resources/CV/Onja Madagascar/Onja FE Rosny CV.pdf: Copied (new)
+2026/11/11 14:01:49 INFO  : X-PLAN/resources/CV/Onja Madagascar/Onja FE Synthia CV.pdf: Copied (new)
+2026/11/11 14:01:50 INFO  : X-PLAN/resources/WAVE 1/INTERVIEWS/ANDROID2.md: Copied (new)
+2026/11/11 14:01:50 INFO  : X-PLAN/resources/CV/Onja Madagascar/comment from onja about FE CVs 5noov26.docx: Copied (new)
+2026/11/11 14:01:50 INFO  : X-PLAN/resources/WAVE 1/INTERVIEWS/BACK END – IAM.md: Copied (replaced existing)
+2026/11/11 14:01:51 INFO  : X-PLAN/resources/WAVE 1/INTERVIEWS/BACK END – ERP.md: Copied (replaced existing)
+2026/11/11 14:01:51 INFO  : X-PLAN/resources/WAVE 1/JD/Android Engineer (Senior).md: Copied (new)
+2026/11/11 14:01:51 INFO  : X-PLAN/resources/WAVE 1/JD/Backend Engineer (GO or RUST) – ERP, Trade Ledger & Identity Management (Senior).md: Copied (new)
+2026/11/11 14:01:51 INFO  : X-PLAN/resources/WAVE 1/JD/Frontend Engineering Lead (Senior).md: Copied (new)
+2026/11/11 14:01:52 INFO  : X-PLAN/resources/WAVE 1/JD/JD  Machine Learning Engineer  On Premises AI Agents and Document Intelligence Senior.pdf: Copied (new)
+2026/11/11 14:01:52 INFO  : X-PLAN/resources/WAVE 1/JD/JD Back end engineer GO or RUST ERP trade ledger and identity management senior.pdf: Copied (new)
+2026/11/11 14:01:52 INFO  : X-PLAN/resources/WAVE 1/JD/JD Android Engineer senior.pdf: Copied (new)
+2026/11/11 14:01:53 INFO  : X-PLAN/resources/WAVE 1/JD/JD Frontend Engineering Lead senior.pdf: Copied (new)
+2026/11/11 14:01:53 INFO  : X-PLAN/resources/WAVE 1/JD/JD Machine Learning Serving and GPU Operations Engineer Mid-Senior.pdf: Copied (new)
+2026/11/11 14:01:53 INFO  : X-PLAN/resources/WAVE 1/JD/JD Site Reliability Engineer SRE Device Imaging and Fleet Operations Senior.pdf: Copied (new)
+2026/11/11 14:01:53 INFO  : X-PLAN/resources/WAVE 1/JD/JD Site Reliability Engineer SRE Mesh Network, Disaster Recovery and Sovereign Updates Senior.pdf: Copied (new)
+2026/11/11 14:01:54 INFO  : X-PLAN/resources/WAVE 1/JD/ML Serving & GPU Operations Engineer (Mid-Senior).md: Copied (new)
+2026/11/11 14:01:54 INFO  : X-PLAN/resources/WAVE 1/JD/Machine Learning Engineer – On-Premises AI Agents & Document Intelligence (Senior).md: Copied (new)
+2026/11/11 14:01:55 INFO  : X-PLAN/resources/WAVE 1/JD/QA SET JD.pdf: Copied (new)
+2026/11/11 14:01:55 INFO  : X-PLAN/resources/WAVE 1/JD/Scrum Master JD october 2026.pdf: Copied (new)
+2026/11/11 14:01:55 INFO  : X-PLAN/resources/WAVE 1/JD/Site Reliability Engineer (SRE) – Device Imaging & Fleet Operations (Senior).md: Copied (new)
+2026/11/11 14:01:55 INFO  : X-PLAN/resources/WAVE 1/JD/Site Reliability Engineer (SRE) – Mesh Network, Disaster Recovery & Sovereign Updates (Senior).md: Copied (new)
+2026/11/11 14:01:56 INFO  : X-PLAN/resources/WAVE 1/JD/UX designer JD.pdf: Copied (new)
+2026/11/11 14:01:56 INFO  : X-PLAN/resources/WAVE 1/JD/domain BA JD october 2026.pdf: Copied (new)
+2026/11/11 14:01:56 INFO  : X-PLAN/resources/WAVE 1/JD/writer trainer JD.pdf: Copied (new)
+2026/11/11 14:01:56 INFO  : 
+Transferred:   	    5.535 MiB / 5.535 MiB, 100%, 216.753 KiB/s, ETA 0s
+Checks:               762 / 762, 100%
+Transferred:           46 / 46, 100%
+Elapsed time:        41.2s
+
+[2026-11-11 14:01:56] PULL done
